@@ -22,14 +22,16 @@ export const site = {
   nav: [
     { label: 'Home', href: '/#top' },
     { label: 'Projects', href: '/projects/' },
-    { label: 'Education', href: '/#education' },
     { label: 'Services', href: '/#services' },
+    { label: 'Career', href: '/#journey' },
+    { label: 'Education', href: '/#education' },
   ],
   footerNav: [
     { label: 'Home', href: '/#top' },
     { label: 'Projects', href: '/projects/' },
     { label: 'Services', href: '/#services' },
     { label: 'Skills', href: '/#skills' },
+    { label: 'Career', href: '/#journey' },
     { label: 'Education', href: '/#education' },
   ],
   // Footer icons. An icon only shows once its href is filled in.
@@ -127,7 +129,9 @@ export const services = [
 
 // Section stays hidden until this has entries. Shape:
 // { company: 'Company', dates: 'Jan 2025 - Present', role: 'Role', desc: 'One sentence', location: 'Sri Lanka', type: 'Full time' }
-export const jobs = []
+export const jobs = [
+  { company: 'Sentered Media', dates: 'Feb 2025 - Sep 2026', role: 'Project Manager & AI Content Creator', desc: 'Managed client projects from brief to delivery while creating AI-generated product ads, motion graphics and cinematic brand videos.', location: 'Sri Lanka', type: 'Full time' },
+]
 
 export const education = [
   { school: 'SLIIT City Uni', degree: 'B.Sc. in Software Engineering', level: 'Undergraduate' },

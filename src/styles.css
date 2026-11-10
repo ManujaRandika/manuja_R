@@ -533,7 +533,7 @@ section { padding-bottom: 128px; }
   gap: 40px;
   align-items: start;
 }
-.timeline h2 { position: sticky; top: 112px; }
+.timeline-head { position: sticky; top: 112px; }
 .timeline-list { display: flex; flex-direction: column; gap: 20px; border-left: 1px solid var(--line-2); margin-left: 7px; padding-left: 24px; }
 .job { position: relative; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; }
 .job::before { content: ''; position: absolute; left: -31px; top: 0; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); }

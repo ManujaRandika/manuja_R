@@ -261,7 +261,10 @@ function Services() {
 function Career() {
   return (
     <section id="journey" className="timeline" data-reveal>
-      <h2 className="h2">Career <em>so far</em></h2>
+      <div className="timeline-head">
+        <Eyebrow n="04">Career</Eyebrow>
+        <h2 className="h2">Career <em>so far</em></h2>
+      </div>
       <div className="timeline-list">
         {jobs.map((j, i) => (
           <div key={i} className="job">
@@ -284,7 +287,7 @@ function Education() {
     <section id="education" data-reveal>
       <div className="head-row">
         <div>
-          <Eyebrow n="04">Education</Eyebrow>
+          <Eyebrow n="05">Education</Eyebrow>
           <h2 className="h2">Where I <em>study</em></h2>
         </div>
       </div>
@@ -333,7 +336,7 @@ function Faq() {
     <section className="faq-section" data-reveal>
       <div className="faq-aside">
         <div>
-          <Eyebrow n="05">FAQ</Eyebrow>
+          <Eyebrow n="06">FAQ</Eyebrow>
           <h2 className="h2">Good <em>questions</em></h2>
         </div>
         <div className="faq-card">
